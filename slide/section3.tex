@@ -1,0 +1,138 @@
+\section{Decomposition of \( \mathbb{Z}_{p}[x]/(x^{n}-1) \)}
+\subsection{Decomposition of \( \mathbb{Z}_{p}[x]/(x^{8}-1) \)}
+\begin{frame}
+    \begin{itemize}
+        \item Proceeding from the previous example, we now try to decompose the ring 
+            \( \mathbb{Z}_{p}[x]/(x^{8}-1) \).
+        \item We assume that the modulus number \( p \) will make the existence of 
+            8-th primitive root \( \omega_{8} \), that is, \( \omega_{8}^{8} = 1 \) and
+            \( \omega_{8}^{4} =  -1 \). 
+            Existence of \( \omega_{4} \) follows from \( \omega_{4} = \omega_{8}^{2} \).
+        \item We have
+            \begin{align*}
+                (x^{8}-1) &= (x^{4}-1)(x^{4}+1) = (x^{4} -1)(x^{4} - \omega_{4}^{2})\\
+                          &= (x^{2}-1)(x^{2}+1)(x^{2} - \omega_{4})(x^{2} + \omega_{4})
+                           = (x^{2}-1)  (x^{2}-\omega_{4}^{2})  (x^{2} - \omega_{4})(x^{2} + \omega_{4})\\
+                          &= (x^{2}-1)(x^{2} - \omega_{4}^{2})(x^{2} - \omega_{8}^{2})(x^{2} + \omega_{8}^{2})
+                          = (x^{2}-1)(x^{2} - \omega_{4}^{2})(x^{2} - \omega_{8}^{2})(x^{2} {\color{red}- \omega_{8}^{6}})\\
+                          &= (x - 1)(x + 1)
+                             (x - \omega_{4})(x + \omega_{4})
+                             (x - \omega_{8})(x + \omega_{8})
+                             (x - \omega_{8}^{3})(x + \omega_{8}^{3}).
+            \end{align*}
+        \item Hence, we have the decomposition:
+\begin{align*}
+\mathbb{Z}_{p}[x]/(x^{8}-1)
+&\cong (\mathbb{Z}_{p}[x]/(x^{4}-1))
+        \times
+        (\mathbb{Z}_{p}[x]/(x^{4}+1)) \\[6pt]
+&\cong (\mathbb{Z}_{p}[x]/(x^{2}-1))
+        \times
+        (\mathbb{Z}_{p}[x]/(x^{2}+1))
+        \times
+        (\mathbb{Z}_{p}[x]/(x^{2}-\omega_{4}))
+        \times
+        (\mathbb{Z}_{p}[x]/(x^{2}+\omega_{4})) \\[6pt]
+&\cong (\mathbb{Z}_{p}[x]/(x-1))
+        \times
+        (\mathbb{Z}_{p}[x]/(x+1))
+        \times
+        (\mathbb{Z}_{p}[x]/(x-\omega_{4}))
+        \times
+        (\mathbb{Z}_{p}[x]/(x+\omega_{4})) \\[3pt]
+&\quad\times (\mathbb{Z}_{p}[x]/(x-\omega_{8}))
+        \times
+        (\mathbb{Z}_{p}[x]/(x+\omega_{8}))
+        \times
+        (\mathbb{Z}_{p}[x]/(x-\omega_{8}^{3}))
+        \times
+        (\mathbb{Z}_{p}[x]/(x+\omega_{8}^{3})).
+\end{align*}
+    \end{itemize}
+\end{frame}
+
+\begin{frame}
+    \begin{itemize}
+        \item The decomposition can be further written as:
+\begin{align*}
+\mathbb{Z}_{p}[x]/(x^{8}-1)
+&\cong (\mathbb{Z}_{p}[x]/(x^{4}-1))
+        \times
+        (\mathbb{Z}_{p}[x]/(x^{4}+1)) 
+        {\color{red}= (\mathbb{Z}_{p}[x]/(x-\omega_{2}^{0}))
+        \times
+        (\mathbb{Z}_{p}[x]/(x-\omega_{2}^{1}))}
+        \\[6pt]
+&\cong (\mathbb{Z}_{p}[x]/(x^{2}-1))
+        \times
+        (\mathbb{Z}_{p}[x]/(x^{2}+1))
+        \times
+        (\mathbb{Z}_{p}[x]/(x^{2}-\omega_{4}))
+        \times
+        (\mathbb{Z}_{p}[x]/(x^{2}+\omega_{4})) \\[6pt]
+&{\color{blue}=      (\mathbb{Z}_{p}[x]/(x^{2}-\omega_{4}^{0}))
+        \times
+        (\mathbb{Z}_{p}[x]/(x^{2}-\omega_{4}^{2}))
+        \times
+        (\mathbb{Z}_{p}[x]/(x^{2}-\omega_{4}))
+        \times
+        (\mathbb{Z}_{p}[x]/(x^{2}-\omega_{4}^{3}))} \\[6pt]
+&\cong (\mathbb{Z}_{p}[x]/(x-1))
+        \times
+        (\mathbb{Z}_{p}[x]/(x+1))
+        \times
+        (\mathbb{Z}_{p}[x]/(x-\omega_{4}))
+        \times
+        (\mathbb{Z}_{p}[x]/(x+\omega_{4})) \\[3pt]
+&\quad\times (\mathbb{Z}_{p}[x]/(x-\omega_{8}))
+        \times
+        (\mathbb{Z}_{p}[x]/(x+\omega_{8}))
+        \times
+        (\mathbb{Z}_{p}[x]/(x-\omega_{8}^{3}))
+        \times
+        (\mathbb{Z}_{p}[x]/(x+\omega_{8}^{3})) \\[6pt]
+&{\color{cyan}=      (\mathbb{Z}_{p}[x]/(x-\omega_{8}^{0}))
+        \times
+        (\mathbb{Z}_{p}[x]/(x-\omega_{8}^{4}))
+        \times
+        (\mathbb{Z}_{p}[x]/(x-\omega_{8}^{2}))
+        \times
+    (\mathbb{Z}_{p}[x]/(x-\omega_{8}^{6}))} \\[3pt]
+&\quad{\color{cyan}\times (\mathbb{Z}_{p}[x]/(x-\omega_{8}))
+        \times
+        (\mathbb{Z}_{p}[x]/(x-\omega_{8}^{5}))
+        \times
+        (\mathbb{Z}_{p}[x]/(x-\omega_{8}^{3}))
+        \times
+        (\mathbb{Z}_{p}[x]/(x-\omega_{8}^{7}))}.
+\end{align*}
+
+        \item It can then be sofisticatedly written as:
+            \[
+                \mathbb{Z}_{p}[x]/(x^{8}-1) 
+                \cong \prod_{k=0}^{7} \mathbb{Z}_{p}[x]/(x-\omega_{8}^{\mathrm{brv}_{3}(k)}).
+            \]
+
+
+    \end{itemize}
+\end{frame}
+
+
+\begin{frame}
+    \begin{itemize}
+        \item By using such decomposition, we can develop a fast algorithm for 
+            polynomial multiplication in the ring \( \mathbb{Z}_{p}[x]/(x^{8}-1) \).
+        \item But the projection (and recombination) are more complicated than the 
+            previous example. Hence we introduce the concept of butterfly algorithm.
+        \item It is natural to represent a polynomial by an array in the programming language.
+            So here we denote the polynomial \( a(x) = a_{0} + a_{1}x + \cdots + a_{7}x^{7} \) by 
+            an array
+            \[
+                \begin{bmatrix}
+                    a_{0} & a_{1} & a_{2} & a_{3} & a_{4} & a_{5} & a_{6} & a_{7}
+                \end{bmatrix}.
+            \]
+
+    \end{itemize}
+\end{frame}
+

@@ -1,0 +1,66 @@
+\headcommand {\slideentry {0}{0}{1}{1/1}{}{0}}
+\headcommand {\beamer@framepages {1}{1}}
+\headcommand {\slideentry {0}{0}{2}{2/2}{}{0}}
+\headcommand {\beamer@framepages {2}{2}}
+\headcommand {\beamer@sectionpages {1}{2}}
+\headcommand {\beamer@subsectionpages {1}{2}}
+\headcommand {\sectionentry {1}{Introduction and Goal}{3}{Introduction and Goal}{0}}
+\headcommand {\slideentry {1}{0}{1}{3/3}{}{0}}
+\headcommand {\beamer@framepages {3}{3}}
+\headcommand {\beamer@sectionpages {3}{3}}
+\headcommand {\beamer@subsectionpages {3}{3}}
+\headcommand {\sectionentry {2}{Residual Number System and Theory of Quotient Rings}{4}{Residual Number System and Theory of Quotient Rings}{0}}
+\headcommand {\slideentry {2}{0}{1}{4/4}{}{0}}
+\headcommand {\beamer@framepages {4}{4}}
+\headcommand {\slideentry {2}{0}{2}{5/5}{}{0}}
+\headcommand {\beamer@framepages {5}{5}}
+\headcommand {\beamer@subsectionpages {4}{5}}
+\headcommand {\beamer@subsectionentry {0}{2}{1}{6}{Quotient Rings}}
+\headcommand {\slideentry {2}{1}{1}{6/6}{Quotient Rings}{0}}
+\headcommand {\beamer@framepages {6}{6}}
+\headcommand {\beamer@subsectionpages {6}{6}}
+\headcommand {\beamer@subsectionentry {0}{2}{2}{7}{Decomposition of \( \mathbb {Z}[x]/(x^2-1) \)}}
+\headcommand {\slideentry {2}{2}{1}{7/7}{Decomposition of \( \mathbb {Z}[x]/(x^2-1) \)}{0}}
+\headcommand {\beamer@framepages {7}{7}}
+\headcommand {\slideentry {2}{2}{2}{8/8}{Decomposition of \( \mathbb {Z}[x]/(x^2-1) \)}{0}}
+\headcommand {\beamer@framepages {8}{8}}
+\headcommand {\slideentry {2}{2}{3}{9/9}{Decomposition of \( \mathbb {Z}[x]/(x^2-1) \)}{0}}
+\headcommand {\beamer@framepages {9}{9}}
+\headcommand {\slideentry {2}{2}{4}{10/10}{Decomposition of \( \mathbb {Z}[x]/(x^2-1) \)}{0}}
+\headcommand {\beamer@framepages {10}{10}}
+\headcommand {\beamer@subsectionpages {7}{10}}
+\headcommand {\beamer@subsectionentry {0}{2}{3}{11}{Decomposition of \( \mathbb {Z}[x]/(x^4-1) \)}}
+\headcommand {\slideentry {2}{3}{1}{11/11}{Decomposition of \( \mathbb {Z}[x]/(x^4-1) \)}{0}}
+\headcommand {\beamer@framepages {11}{11}}
+\headcommand {\slideentry {2}{3}{2}{12/12}{Decomposition of \( \mathbb {Z}[x]/(x^4-1) \)}{0}}
+\headcommand {\beamer@framepages {12}{12}}
+\headcommand {\slideentry {2}{3}{3}{13/13}{Decomposition of \( \mathbb {Z}[x]/(x^4-1) \)}{0}}
+\headcommand {\beamer@framepages {13}{13}}
+\headcommand {\slideentry {2}{3}{4}{14/14}{Decomposition of \( \mathbb {Z}[x]/(x^4-1) \)}{0}}
+\headcommand {\beamer@framepages {14}{14}}
+\headcommand {\slideentry {2}{3}{5}{15/15}{Decomposition of \( \mathbb {Z}[x]/(x^4-1) \)}{0}}
+\headcommand {\beamer@framepages {15}{15}}
+\headcommand {\slideentry {2}{3}{6}{16/16}{Decomposition of \( \mathbb {Z}[x]/(x^4-1) \)}{0}}
+\headcommand {\beamer@framepages {16}{16}}
+\headcommand {\slideentry {2}{3}{7}{17/17}{Decomposition of \( \mathbb {Z}[x]/(x^4-1) \)}{0}}
+\headcommand {\beamer@framepages {17}{17}}
+\headcommand {\slideentry {2}{3}{8}{18/18}{Decomposition of \( \mathbb {Z}[x]/(x^4-1) \)}{0}}
+\headcommand {\beamer@framepages {18}{18}}
+\headcommand {\beamer@sectionpages {4}{18}}
+\headcommand {\beamer@subsectionpages {11}{18}}
+\headcommand {\sectionentry {3}{Decomposition of \( \mathbb {Z}_{p}[x]/(x^{n}-1) \)}{19}{Decomposition of \( \mathbb {Z}_{p}[x]/(x^{n}-1) \)}{0}}
+\headcommand {\beamer@subsectionpages {19}{18}}
+\headcommand {\beamer@subsectionentry {0}{3}{1}{19}{Decomposition of \( \mathbb {Z}_{p}[x]/(x^{8}-1) \)}}
+\headcommand {\slideentry {3}{1}{1}{19/19}{Decomposition of \( \mathbb {Z}_{p}[x]/(x^{8}-1) \)}{0}}
+\headcommand {\beamer@framepages {19}{19}}
+\headcommand {\slideentry {3}{1}{2}{20/20}{Decomposition of \( \mathbb {Z}_{p}[x]/(x^{8}-1) \)}{0}}
+\headcommand {\beamer@framepages {20}{20}}
+\headcommand {\slideentry {3}{1}{3}{21/21}{Decomposition of \( \mathbb {Z}_{p}[x]/(x^{8}-1) \)}{0}}
+\headcommand {\beamer@framepages {21}{21}}
+\headcommand {\slideentry {3}{1}{4}{22/22}{Decomposition of \( \mathbb {Z}_{p}[x]/(x^{8}-1) \)}{0}}
+\headcommand {\beamer@framepages {22}{22}}
+\headcommand {\beamer@partpages {1}{22}}
+\headcommand {\beamer@subsectionpages {19}{22}}
+\headcommand {\beamer@sectionpages {19}{22}}
+\headcommand {\beamer@documentpages {22}}
+\headcommand {\gdef \inserttotalframenumber {21}}
