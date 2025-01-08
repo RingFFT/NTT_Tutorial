@@ -2,13 +2,13 @@
 \subsection{Decomposition of \( \mathbb{Z}_{p}[x]/(x^{8}-1) \)}
 \begin{frame}
     \begin{itemize}
-        \item Proceeding from the previous example, we now try to decompose the ring 
+        \item <1->Proceeding from the previous example, we now try to decompose the ring 
             \( \mathbb{Z}_{p}[x]/(x^{8}-1) \).
-        \item We assume that the modulus number \( p \) will make the existence of 
+        \item <2->We assume that the modulus number \( p \) will make the existence of 
             8-th primitive root \( \omega_{8} \), that is, \( \omega_{8}^{8} = 1 \) and
             \( \omega_{8}^{4} =  -1 \). 
             Existence of \( \omega_{4} \) follows from \( \omega_{4} = \omega_{8}^{2} \).
-        \item We have
+        \item <3->We have
             \begin{align*}
                 (x^{8}-1) &= (x^{4}-1)(x^{4}+1) = (x^{4} -1)(x^{4} - \omega_{4}^{2})\\
                           &= (x^{2}-1)(x^{2}+1)(x^{2} - \omega_{4})(x^{2} + \omega_{4})
@@ -20,7 +20,7 @@
                              (x - \omega_{8})(x + \omega_{8})
                              (x - \omega_{8}^{3})(x + \omega_{8}^{3}).
             \end{align*}
-        \item Hence, we have the decomposition:
+        \item <4->Hence, we have the decomposition:
 \begin{align*}
 \mathbb{Z}_{p}[x]/(x^{8}-1)
 &\cong (\mathbb{Z}_{p}[x]/(x^{4}-1))
@@ -54,68 +54,149 @@
 \begin{frame}
     \begin{itemize}
         \item The decomposition can be further written as:
-\begin{align*}
-\mathbb{Z}_{p}[x]/(x^{8}-1)
-&\cong (\mathbb{Z}_{p}[x]/(x^{4}-1))
-        \times
-        (\mathbb{Z}_{p}[x]/(x^{4}+1)) 
-        {\color{red}= (\mathbb{Z}_{p}[x]/(x-\omega_{2}^{0}))
-        \times
-        (\mathbb{Z}_{p}[x]/(x-\omega_{2}^{1}))}
-        \\[6pt]
-&\cong (\mathbb{Z}_{p}[x]/(x^{2}-1))
-        \times
-        (\mathbb{Z}_{p}[x]/(x^{2}+1))
-        \times
-        (\mathbb{Z}_{p}[x]/(x^{2}-\omega_{4}))
-        \times
-        (\mathbb{Z}_{p}[x]/(x^{2}+\omega_{4})) \\[6pt]
-&{\color{blue}=      (\mathbb{Z}_{p}[x]/(x^{2}-\omega_{4}^{0}))
-        \times
-        (\mathbb{Z}_{p}[x]/(x^{2}-\omega_{4}^{2}))
-        \times
-        (\mathbb{Z}_{p}[x]/(x^{2}-\omega_{4}))
-        \times
-        (\mathbb{Z}_{p}[x]/(x^{2}-\omega_{4}^{3}))} \\[6pt]
-&\cong (\mathbb{Z}_{p}[x]/(x-1))
-        \times
-        (\mathbb{Z}_{p}[x]/(x+1))
-        \times
-        (\mathbb{Z}_{p}[x]/(x-\omega_{4}))
-        \times
-        (\mathbb{Z}_{p}[x]/(x+\omega_{4})) \\[3pt]
-&\quad\times (\mathbb{Z}_{p}[x]/(x-\omega_{8}))
-        \times
-        (\mathbb{Z}_{p}[x]/(x+\omega_{8}))
-        \times
-        (\mathbb{Z}_{p}[x]/(x-\omega_{8}^{3}))
-        \times
-        (\mathbb{Z}_{p}[x]/(x+\omega_{8}^{3})) \\[6pt]
-&{\color{cyan}=      (\mathbb{Z}_{p}[x]/(x-\omega_{8}^{0}))
+\               \begin{align*}
+    \only<1->{\mathbb{Z}_{p}[x]/(x^{8}-1)}
+    &\only<2->{\cong(\mathbb{Z}_{p}[x]/(x^{4}-1))
+            \times
+            (\mathbb{Z}_{p}[x]/(x^{4}+1)) }
+     \only<6->{{\color{red}= (\mathbb{Z}_{p}[x]/(x-\omega_{2}^{0}))
+            \times
+            (\mathbb{Z}_{p}[x]/(x-\omega_{2}^{1}))}} \\[6pt]
+    &\only<3->{\cong(\mathbb{Z}_{p}[x]/(x^{2}-1))
+            \times
+            (\mathbb{Z}_{p}[x]/(x^{2}+1))
+            \times
+            (\mathbb{Z}_{p}[x]/(x^{2}-\omega_{4}))
+            \times
+            (\mathbb{Z}_{p}[x]/(x^{2}+\omega_{4}))} \\[6pt]
+    &\only<7->{\color{blue}= (\mathbb{Z}_{p}[x]/(x^{2}-\omega_{4}^{0}))
+            \times
+            (\mathbb{Z}_{p}[x]/(x^{2}-\omega_{4}^{2}))
+            \times
+            (\mathbb{Z}_{p}[x]/(x^{2}-\omega_{4}))
+            \times
+            (\mathbb{Z}_{p}[x]/(x^{2}-\omega_{4}^{3}))} \\[6pt]
+    &\only<4->{\cong(\mathbb{Z}_{p}[x]/(x-1))
+            \times
+            (\mathbb{Z}_{p}[x]/(x+1))
+            \times
+            (\mathbb{Z}_{p}[x]/(x-\omega_{4}))
+            \times
+            (\mathbb{Z}_{p}[x]/(x+\omega_{4}))} \\[3pt]
+    &\quad\only<5->{\times (\mathbb{Z}_{p}[x]/(x-\omega_{8}))
+            \times
+            (\mathbb{Z}_{p}[x]/(x+\omega_{8}))
+            \times
+            (\mathbb{Z}_{p}[x]/(x-\omega_{8}^{3}))
+            \times
+            (\mathbb{Z}_{p}[x]/(x+\omega_{8}^{3}))} \\[6pt]
+    &\quad\only<8->{\color{cyan}= (\mathbb{Z}_{p}[x]/(x-\omega_{8}^{0}))
+            \times
+            (\mathbb{Z}_{p}[x]/(x-\omega_{8}^{4}))
+            \times
+            (\mathbb{Z}_{p}[x]/(x-\omega_{8}^{2}))
+            \times
+            (\mathbb{Z}_{p}[x]/(x-\omega_{8}^{6}))} \\[3pt]
+    &\quad\only<9->{\color{cyan}\times (\mathbb{Z}_{p}[x]/(x-\omega_{8}))
+            \times
+            (\mathbb{Z}_{p}[x]/(x-\omega_{8}^{5}))
+            \times
+            (\mathbb{Z}_{p}[x]/(x-\omega_{8}^{3}))
+            \times
+            (\mathbb{Z}_{p}[x]/(x-\omega_{8}^{7}))}.
+    \end{align*}
+
+        \item <10->It can then be sofisticatedly written as:
+            \[
+                \mathbb{Z}_{p}[x]/(x^{8}-1) 
+                \only<11->{\cong \prod_{k=0}^{1} \mathbb{Z}_{p}[x]/(x-\omega_{2}^{\mathrm{brv}_{1}(k)})}
+                \only<12->{\cong \prod_{k=0}^{3} \mathbb{Z}_{p}[x]/(x-\omega_{4}^{\mathrm{brv}_{2}(k)})}
+                \only<13->{\cong \prod_{k=0}^{7} \mathbb{Z}_{p}[x]/(x-\omega_{8}^{\mathrm{brv}_{3}(k)}).}
+            \]
+            The notation \( \mathrm{brv}_{1}(k) \), \( \mathrm{brv}_{2}(k) \), and \( \mathrm{brv}_{3}(k) \) will be discussed in the next slide.
+
+    \end{itemize}
+\end{frame}
+
+\begin{frame}
+    \begin{itemize}
+        \item <1->The notation \( \mathrm{brv}_{1}(k) \), \( \mathrm{brv}_{2}(k) \), and \( \mathrm{brv}_{3}(k) \) are referred to as bit-reversal permutation.
+        \item <2->\( \mathrm{brv}_{j}(k) \) is defined as:
+            \[
+                \mathrm{brv}_{j}(k) = \sum_{i=0}^{j-1} b_{i}2^{j-1-i},
+            \]
+            where \( b_{i} \) is the \( i \)-th bit of the binary representation of \( k \).
+
+        \item <3->If you think that the above formula is too complicated, it is equivalent to:
+        \begin{enumerate}
+            \item Write the number \( k \) in binary representation.
+            \item Pad the binary representation with zeros to make it \( j \)-bit long.
+            \item Reverse the bitstring.
+            \item Convert the reversed bitstring to decimal.
+        \end{enumerate}
+
+        \item <4->You can check this
+        \begin{align*}
+        \prod_{k=0}^{7} \mathbb{Z}_{p}[x]/(x-\omega_{8}^{\mathrm{brv}_{3}(k)})
+        \end{align*}
+        equals to
+        \begin{align*}
+        &(\mathbb{Z}_{p}[x]/(x-\omega_{8}^{0}))
         \times
         (\mathbb{Z}_{p}[x]/(x-\omega_{8}^{4}))
         \times
         (\mathbb{Z}_{p}[x]/(x-\omega_{8}^{2}))
         \times
-    (\mathbb{Z}_{p}[x]/(x-\omega_{8}^{6}))} \\[3pt]
-&\quad{\color{cyan}\times (\mathbb{Z}_{p}[x]/(x-\omega_{8}))
+        (\mathbb{Z}_{p}[x]/(x-\omega_{8}^{6})) \\[3pt]
+  &\quad\times (\mathbb{Z}_{p}[x]/(x-\omega_{8}))
         \times
         (\mathbb{Z}_{p}[x]/(x-\omega_{8}^{5}))
         \times
         (\mathbb{Z}_{p}[x]/(x-\omega_{8}^{3}))
         \times
-        (\mathbb{Z}_{p}[x]/(x-\omega_{8}^{7}))}.
-\end{align*}
-
-        \item It can then be sofisticatedly written as:
-            \[
-                \mathbb{Z}_{p}[x]/(x^{8}-1) 
-                \cong \prod_{k=0}^{7} \mathbb{Z}_{p}[x]/(x-\omega_{8}^{\mathrm{brv}_{3}(k)}).
-            \]
-
+        (\mathbb{Z}_{p}[x]/(x-\omega_{8}^{7}))
+        \end{align*}
 
     \end{itemize}
 \end{frame}
+
+\begin{frame}
+    \begin{itemize}
+        \item <1->Now we can finally state the decomposition formula of \( \mathbb{Z}_{p}[x]/(x^{n}-1) \):
+            \begin{align*}
+                \mathbb{Z}_{p}[x]/(x^{n}-1) 
+                & \cong \prod_{k=0}^{1} \mathbb{Z}_{p}[x]/(x^{\frac{n}{2}}-\omega_{2}^{\mathrm{brv}_{1}(k)})
+                 \cong \prod_{k=0}^{3} \mathbb{Z}_{p}[x]/(x^{\frac{n}{4}}-\omega_{4}^{\mathrm{brv}_{2}(k)})\\
+                & \cong \prod_{k=0}^{7} \mathbb{Z}_{p}[x]/(x^{\frac{n}{8}}-\omega_{8}^{\mathrm{brv}_{3}(k)})\\
+                & \quad \vdots\\
+                & \cong \prod_{k=0}^{n-1} \mathbb{Z}_{p}[x]/(x-\omega_{n}^{\mathrm{brv}_{\log_{2}n}(k)}).
+            \end{align*}
+            We will say that this is a \( \log_{2}n \)-level decomposition.
+        \item <2->An important observation is that:
+        In order to make the decomposition until the \( \log_{2}n \)-level, we need to have the existence of \( n \)-th primitive root.
+        If, say, the current coefficient ring only has \( 4 \)-th primitive root, then we can only decompose until the \( 2 \)-level:
+        \[
+            \mathbb{Z}_{p}[x]/(x^{n}-1) 
+            \cong \prod_{k=0}^{1} \mathbb{Z}_{p}[x]/(x^{\frac{n}{2}}-\omega_{2}^{\mathrm{brv}_{1}(k)}).
+        \]
+    \end{itemize}
+\end{frame}
+
+\begin{frame}
+    \begin{itemize}
+        \item An important observation is that:
+        In order to make the decomposition until the \( \log_{2}n \)-level, we need to have the existence of \( n \)-th primitive root.
+        If, say, the current coefficient ring only has \( 4 \)-th primitive root, then we can only decompose until the \( 2 \)-level:
+        \[
+            \mathbb{Z}_{p}[x]/(x^{n}-1) 
+            \cong \prod_{k=0}^{1} \mathbb{Z}_{p}[x]/(x^{\frac{n}{2}}-\omega_{2}^{\mathrm{brv}_{1}(k)}).
+        \]
+        This is the so-called incomplete NTT. 
+        Though not fully decoposed, it is still beneficial (sometimes better) to our purpose.
+        Again, the performance should be measured by the cycle-count.
+    \end{itemize}
+\end{frame}
+
 
 
 \begin{frame}
@@ -133,6 +214,12 @@
                 \end{bmatrix}.
             \]
 
+    
     \end{itemize}
 \end{frame}
 
+
+
+\begin{frame}
+asd    
+\end{frame}

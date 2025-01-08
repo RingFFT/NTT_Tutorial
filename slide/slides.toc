@@ -1,7 +1,7 @@
 \beamer@sectionintoc {1}{Introduction and Goal\unhbox \voidb@x \cleaders \hbox to0.8em{\hss .\hss }\hfill \kern \z@ 2}{3}{0}{1}
-\beamer@sectionintoc {2}{Residual Number System and Theory of Quotient Rings\unhbox \voidb@x \cleaders \hbox to0.8em{\hss .\hss }\hfill \kern \z@ 3}{4}{0}{2}
-\beamer@subsectionintoc {2}{1}{Quotient Rings\unhbox \voidb@x \cleaders \hbox to0.8em{\hss .\hss }\hfill \kern \z@ 5}{6}{0}{2}
-\beamer@subsectionintoc {2}{2}{Decomposition of \( \mathbb {Z}[x]/(x^2-1) \)\unhbox \voidb@x \cleaders \hbox to0.8em{\hss .\hss }\hfill \kern \z@ 6}{7}{0}{2}
-\beamer@subsectionintoc {2}{3}{Decomposition of \( \mathbb {Z}[x]/(x^4-1) \)\unhbox \voidb@x \cleaders \hbox to0.8em{\hss .\hss }\hfill \kern \z@ 10}{11}{0}{2}
-\beamer@sectionintoc {3}{Decomposition of \( \mathbb {Z}_{p}[x]/(x^{n}-1) \)\unhbox \voidb@x \cleaders \hbox to0.8em{\hss .\hss }\hfill \kern \z@ 18}{19}{0}{3}
-\beamer@subsectionintoc {3}{1}{Decomposition of \( \mathbb {Z}_{p}[x]/(x^{8}-1) \)\unhbox \voidb@x \cleaders \hbox to0.8em{\hss .\hss }\hfill \kern \z@ 18}{19}{0}{3}
+\beamer@sectionintoc {2}{Residual Number System and Theory of Quotient Rings\unhbox \voidb@x \cleaders \hbox to0.8em{\hss .\hss }\hfill \kern \z@ 3}{5}{0}{2}
+\beamer@subsectionintoc {2}{1}{Quotient Rings\unhbox \voidb@x \cleaders \hbox to0.8em{\hss .\hss }\hfill \kern \z@ 5}{18}{0}{2}
+\beamer@subsectionintoc {2}{2}{Decomposition of \( \mathbb {Z}[x]/(x^2-1) \)\unhbox \voidb@x \cleaders \hbox to0.8em{\hss .\hss }\hfill \kern \z@ 6}{25}{0}{2}
+\beamer@subsectionintoc {2}{3}{Decomposition of \( \mathbb {Z}[x]/(x^4-1) \)\unhbox \voidb@x \cleaders \hbox to0.8em{\hss .\hss }\hfill \kern \z@ 10}{44}{0}{2}
+\beamer@sectionintoc {3}{Decomposition of \( \mathbb {Z}_{p}[x]/(x^{n}-1) \)\unhbox \voidb@x \cleaders \hbox to0.8em{\hss .\hss }\hfill \kern \z@ 18}{80}{0}{3}
+\beamer@subsectionintoc {3}{1}{Decomposition of \( \mathbb {Z}_{p}[x]/(x^{8}-1) \)\unhbox \voidb@x \cleaders \hbox to0.8em{\hss .\hss }\hfill \kern \z@ 18}{80}{0}{3}

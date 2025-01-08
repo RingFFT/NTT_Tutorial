@@ -2,25 +2,25 @@
 
 \begin{frame}
     \begin{itemize}
-        \item We first take a step back to deal with the multiplication in 
+        \item <1->We first take a step back to deal with the multiplication in 
               the ring \(\mathbb{Z}/ n\mathbb{Z}\).
-        \item For example, let's consider the toy example of multiplication 
+        \item <2->For example, let's consider the toy example of multiplication 
               in the ring \(\mathbb{Z}/ 105\mathbb{Z}\).
-        \item Note that \( 105 = 3 \cdot 5\cdot 7\), 
+        \item <3->Note that \( 105 = 3 \cdot 5\cdot 7\), 
               and the factors are co-prime (ideals), 
               so we have the following decomposition:
               \[ \mathbb{Z}/ 105\mathbb{Z} \cong 
                  \mathbb{Z}/ 3\mathbb{Z} \times 
                  \mathbb{Z}/ 5\mathbb{Z} \times 
                  \mathbb{Z}/ 7\mathbb{Z} \]
-        \item Suppose we want to perform the multiplication \(31 * 27 = 102\) in 
-        \item Suppose we want to perform the multiplication \(31 * 27 = 102\) in 
+        \item <4->Suppose we want to perform the multiplication \(31 * 27 = 102\) in 
+        \item <5->Suppose we want to perform the multiplication \(31 * 27 = 102\) in 
               the ring \(\mathbb{Z}/ 105\mathbb{Z}\)
-        \item We first project the operands (31, 27) to the three "coordinate"-rings:
+        \item <6->We first project the operands (31, 27) to the three "coordinate"-rings:
               \[ 31 \mapsto (1, 1, 3) \quad 27 \mapsto (0, 2, 6) \]
-        \item Multiply the corresponding "coordinates" to get
+        \item <7->Multiply the corresponding "coordinates" to get
               \[ (1, 1, 3) \cdot (0, 2, 6) = (0, 2, 4) \]
-        \item Finally, we recombine the result to get the final answer:
+        \item <8->Finally, we recombine the result to get the final answer:
               The process involves the so-called Chinese Remainder Theorem (CRT),
               that is, to find the solution to the system
               \[
@@ -38,18 +38,20 @@
 
 \begin{frame}{Remarks on CRT}
     \begin{itemize}
-        \item Some may argue that the final recombination step is even costly. 
+        \item <1->Some may argue that the final recombination step is even costly. 
               However, there exists some efficient algorithms to perform the CRT. 
-        \item Another advantage of the RNS CRT approach is that, after decomposing 
+        \item <2->Another advantage of the RNS CRT approach is that, after decomposing 
               the ring into several "coordinate"-rings, we can perform the 
               multiplication in the "coordinate"-rings in parallel. 
-        \item If the whole process involves many times of multiplication, 
+        \item <3->If the whole process involves many times of multiplication, 
               we can leave the big integers in the RNS coordinate representations, 
               and after performing all required multiplications, 
               recombine the results via the CRT once.
-        \item Such technique is applicable in real-world, for example, 
+        \item <4->Such technique is applicable in real-world, for example, 
               to compute a discrete logarithm in the ring \(\mathbb{Z}/ n\mathbb{Z}\).
-        \item For more discussion on the RNS, see the paper: 
+        \item <5->For more discussion on the RNS, see the paper: 
+        Modular exponentiation via the explicit Chinese remainder theorem
+        by DJB.
 
     \end{itemize}
 \end{frame}
@@ -61,12 +63,12 @@
 \subsection{Quotient Rings}
 \begin{frame}
     \begin{itemize}
-        \item So far, we have seen many notations like 
+        \item <1->So far, we have seen many notations like 
             \[ \mathbb{Z}/ n\mathbb{Z}, \quad \mathbb{Z}[x]/(x^n - 1), \quad \mathbb{Z}_{p}[x]/(x^n - 1)  \]
-        \item These are examples of quotient rings. 
-        \item The meaning of \( \mathbb{Z}/n\mathbb{Z} \) is familiar to us, 
+        \item <2->These are examples of quotient rings. 
+        \item <3->The meaning of \( \mathbb{Z}/n\mathbb{Z} \) is familiar to us, 
               it means that all operations are performed modulo \(n\).
-        \item We can extend the idea to polynomial operations: 
+        \item <4->We can extend the idea to polynomial operations: 
               \begin{itemize}
                    \item the set \( \mathbb{Z}[x] \) is the set of all polynomials 
                          with integer coefficients. 
@@ -77,9 +79,9 @@
                        \[ (x + 1) \cdot (x + 2) = x^2 + 3x + 2 \equiv 3x + 4 \pmod{x^2 - 1} \]
               \end{itemize}
  
-        \item Generally, \(\mathbb{Z}[x]/(f(x))\): Polynomial congruences where \(f(x) \equiv 0\).
-        \item We also write the quotient integer rings \(\mathbb{Z} / n\mathbb{Z}\) as \(\mathbb{Z}_n\)
-        \item Hence, the meaning of \(\mathbb{Z}_{p}[x]/(x^n - 1)\) 
+        \item <5->Generally, \(\mathbb{Z}[x]/(f(x))\): Polynomial congruences where \(f(x) \equiv 0\).
+        \item <6->We also write the quotient integer rings \(\mathbb{Z} / n\mathbb{Z}\) as \(\mathbb{Z}_n\)
+        \item <7->Hence, the meaning of \(\mathbb{Z}_{p}[x]/(x^n - 1)\) 
               is that the coefficients are reduced modulo \(p\),
               and the polynomial is reduced modulo \(x^n - 1\).
   \end{itemize}
@@ -89,39 +91,39 @@
 \subsection{Decomposition of \( \mathbb{Z}[x]/(x^2-1) \)}
 \begin{frame}
 \begin{itemize}
-    \item From the experience of the RNS, we now try the same trick on the problem of 
+    \item <1->From the experience of the RNS, we now try the same trick on the problem of 
           multiplication in the ring \( \mathbb{Z}[x]/(x^2 - 1) \).
-    \item Easy to see that \(x^2 - 1 = (x - 1)(x + 1)\), 
+    \item <2->Easy to see that \(x^2 - 1 = (x - 1)(x + 1)\), 
           and the factors are co-prime (ideals),
           so we have the following decomposition:
           \[ \mathbb{Z}[x]/(x^2 - 1) \cong 
              \mathbb{Z}[x]/(x - 1) \times 
              \mathbb{Z}[x]/(x + 1) \]
-    \item Suppose we want to multiply \( (3 + 1x) \cdot (2 + 7x) = 13 + 23x\) in the ring 
+    \item <3->Suppose we want to multiply \( (3 + 1x) \cdot (2 + 7x) = 13 + 23x\) in the ring 
           \( \mathbb{Z}[x]/(x^2 - 1) \).
-    \item We first project the operands to the two "coordinate"-rings:
+    \item <4->We first project the operands to the two "coordinate"-rings:
           \[
             3+1x \mapsto (4,2),\quad 2+7x \mapsto (9,-5).
           \]
-    \item Multiply the corresponding "coordinates" to get
+    \item <5->Multiply the corresponding "coordinates" to get
         \[
             (4,2)\cdot (9,-5) = (36,-10).
         \]
-    \item Finally, we recombine the result to the final asnwer: 
+    \item <6->Finally, we recombine the result to the final asnwer: 
           that is, to find the solution to the system
           \[
             f(x) \equiv 36 \pmod{x-1},\quad 
             f(x) \equiv -10 \pmod{x+1}.
           \]
           The solution is \(f(x) = 13 + 23 x\).
-        \item It seems that the recombination is very hard to solve. But, no, see the next slide.
+        \item <7->It seems that the recombination is very hard to solve. But, no, see the next slide.
   \end{itemize}
 \end{frame}
 
 \begin{frame}
     \begin{itemize}
-        \item A saying goes that "How to go forward then how to go back" (Cesare Huang, 2024)
-        \item Let \(a + b x\) be one of the operand in the ring \( \mathbb{Z}[x]/ (x^{2}-1)\),
+        \item <1->A saying goes that "How to go forward then how to go back" (Cesare Huang, 2024)
+        \item <2->Let \(a + b x\) be one of the operand in the ring \( \mathbb{Z}[x]/ (x^{2}-1)\),
             then we have the following projection:
             \begin{align*}
                 \mathbb{Z}[x] / (x^{2}-1) &\cong 
@@ -131,13 +133,13 @@
                 \frac{A+B}{2} + \frac{A-B}{2}x &\mapsto (A,B).
             \end{align*}
 
-        \item Hence, the recombination is easy, once receive the \(A,B\) from the component-wise multiplication, 
+        \item <3->Hence, the recombination is easy, once receive the \(A,B\) from the component-wise multiplication, 
               the solution in \( \mathbb{Z}[x] / (x^{2} - 1) \) is simply
               \[
                 \frac{A+B}{2} + \frac{A-B}{2}x
               \]
 
-        \item Check:
+        \item <4->Check:
           \[
             f(x) \equiv 36 \pmod{x-1},\quad 
             f(x) \equiv -10 \pmod{x+1}.
@@ -148,23 +150,23 @@
 
 \begin{frame}
     \begin{itemize}
-        \item Let's now give a full analysis on the fast multiplication 
+        \item <1->Let's now give a full analysis on the fast multiplication 
             in the ring \( \mathbb{Z}[x] / (x^{2} - 1) \) just invented.
-        \item Let \( a + b x \) and \( c + d x \) be the two operands, 
+        \item <2->Let \( a + b x \) and \( c + d x \) be the two operands, 
             out algorithm goes as follows:
             \begin{enumerate}
-                \item Project the ring elements into two "coordinate"-rings:
+                \item <3->Project the ring elements into two "coordinate"-rings:
                     \[
                         a + b x \mapsto (a+b, a-b),\quad c + d x \mapsto (c+d, c-d).
                     \]
                     It takes four add/sub operations in this step.
-                \item Multiply the "coordinates" to get
+                \item <4->Multiply the "coordinates" to get
                     \[
                         (a+b, a-b) \cdot (c+d, c-d) = ((a+b)(c+d), (a-b)(c-d)) := (A,B).
                     \]
                     It takes two multiplications in this step.
 
-                \item Recombine the result to get the final answer:
+                \item <5->Recombine the result to get the final answer:
                     \[
                         \frac{A+B}{2} + \frac{A-B}{2}x.
                     \]
@@ -176,18 +178,18 @@
 
 \begin{frame}
     \begin{itemize}
-        \item The algorithm we just invented takes:
+        \item <1->The algorithm we just invented takes:
             \begin{itemize}
                 \item 6 add/sub operations
                 \item 2 multiplications
                 \item 2 shift operation
             \end{itemize}
-        \item The naive algorithm (schoolbook multiplication) takes:
+        \item <2->The naive algorithm (schoolbook multiplication) takes:
             \begin{itemize}
                 \item 4 multiplications
                 \item 2 additions
             \end{itemize}
-        \item The analysis we just made are based on number of mathematic operations.
+        \item <3->The analysis we just made are based on number of mathematic operations.
             This is illustrative, but not the whole story.
             In practice, please benchmark the performance by the actual cycle-count.
     \end{itemize}
@@ -198,51 +200,51 @@
 
 \begin{frame}
     \begin{itemize}
-        \item After experience the fast multiplication brought by the decomposition of 
+        \item <1->After experience the fast multiplication brought by the decomposition of 
             \( \mathbb{Z}[x]/(x^{2}-1) \), we now try to decompose the ring 
             \( \mathbb{Z}[x]/(x^{4}-1) \).
-        \item Easy to see that \(x^{4}-1 = (x^{2}-1)(x^2+1)\), 
+        \item <2->Easy to see that \(x^{4}-1 = (x^{2}-1)(x^2+1)\), 
             and the factors are co-prime (ideals),
             so we have the following decomposition:
             \[ \mathbb{Z}[x]/(x^4 - 1) \cong 
             \mathbb{Z}[x]/(x^2 - 1) \times 
             \mathbb{Z}[x]/(x^2 + 1) \]
-        \item Until here, we can already develop a fast multiplication algorithm by such decomposition.
+        \item <3->Until here, we can already develop a fast multiplication algorithm by such decomposition.
             But it the first coordinate-ring can be further decomposed,
             and it seems that decomposing then one more time can bring more speedup.
-        \item The first ring can be decomposed as we just did.
+        \item <4->The first ring can be decomposed as we just did.
             However, for the second one,
             \[ \mathbb{Z}[x]/(x^2 + 1) \]
             there is no obvious factorization of \(x^2 + 1\).
-        \item One way is to employ the complex number field, 
+        \item <5->One way is to employ the complex number field, 
             and we have the following decomposition:
             \[ \mathbb{Z}[x]/(x^2 + 1) \cong 
             \mathbb{Z}[x]/(x - i) \times 
             \mathbb{Z}[x]/(x + i) \]
             The same trick as above can be applied in the cost of introducing complex numbers.
             Such trick is called the Discrete Fourier Transform (DFT).
-        \item The concept of the Number Theoretic Transform (NTT) is similar to DFT, 
+        \item <6->The concept of the Number Theoretic Transform (NTT) is similar to DFT, 
             but required more well-strucutred ring.
     \end{itemize}
 \end{frame}
 
 \begin{frame}
     \begin{itemize}
-        \item One way is to employ the complex number field, 
+        \item <1->One way is to employ the complex number field, 
             and we have the following decomposition:
             \[ \mathbb{Z}[x]/(x^2 + 1) \cong 
             \mathbb{Z}[x]/(x - i) \times 
             \mathbb{Z}[x]/(x + i) \]
-        \item The concept of the Number Theoretic Transform (NTT) is similar to DFT, 
+        \item <2->The concept of the Number Theoretic Transform (NTT) is similar to DFT, 
             but required more well-strucutred ring.
-        \item Recall that our core problem is to deal with the multiplication of
+        \item <3->Recall that our core problem is to deal with the multiplication of
             the ring \( \mathbb{Z}_{p}[x]/(x^{n}-1) \).
             Here, we in particular consider the ring \( \mathbb{Z}_{p}[x]/(x^{4}-1) \).
-        \item The important observation is that, there may be some element in \( \mathbb{Z}_{p}\),
+        \item <4->The important observation is that, there may be some element in \( \mathbb{Z}_{p}\),
             denoted as \(\omega\), such that \(\omega^{2} = -1\), which, serves as the imaginary unit
             as in the DFT.
 
-        \item Take, for example, the ring \( \mathbb{Z}_{17}[x]/(x^{4}-1)\) for example. 
+        \item <5->Take, for example, the ring \( \mathbb{Z}_{17}[x]/(x^{4}-1)\) for example. 
             In this ring,
             \[
                 4^{2} = 16 \equiv -1 \pmod{17}.
@@ -266,7 +268,7 @@
 \begin{frame}
     \begin{itemize}
 
-        \item Take, for example, the ring \( \mathbb{Z}_{17}[x]/(x^{4}-1)\) for example. 
+        \item <1->Take, for example, the ring \( \mathbb{Z}_{17}[x]/(x^{4}-1)\) for example. 
             In this ring,
             \[
                 4^{2} = 16 \equiv -1 \pmod{17}.
@@ -281,7 +283,7 @@
                 \mathbb{Z}_{17}[x]/(x+4).
             \end{align*}
 
-        \item Hence we have the full decomposition:
+        \item <2->Hence we have the full decomposition:
             \begin{align*}
                 \mathbb{Z}_{17}[x]/(x^{4}-1) 
                 &\cong 
@@ -294,7 +296,7 @@
                 \mathbb{Z}_{17}[x]/(x+4).
             \end{align*}
 
-        \item We can analogously develop a fast multiplication algorithm for the ring 
+        \item <3->We can analogously develop a fast multiplication algorithm for the ring 
             \( \mathbb{Z}_{17}[x]/(x^{4}-1) \):\\
             projection to coordinate-ring, coordinate-wise multiplication, recombination.
     \end{itemize}
@@ -302,7 +304,7 @@
 
 \begin{frame}
     \begin{itemize}
-        \item Suppose we want to multiply two polynomials in the ring \( \mathbb{Z}_{17}[x]/(x^{4}-1) \):
+        \item <4->Suppose we want to multiply two polynomials in the ring \( \mathbb{Z}_{17}[x]/(x^{4}-1) \):
             \[
                 3 + 1x + 4x^{2} + 2x^{3},\quad 2 + 7x + 1x^{2} + 2x^{3}.
             \]
@@ -328,19 +330,19 @@
                 &\mapsto 
                 (12, -6, 21, -19 ) \cong (12, 11, 4, 15).
             \end{align*}
-        \item Coordinate-wise multiplication is straightforward:
+        \item <5->Coordinate-wise multiplication is straightforward:
             \[
                 (10, 13, 12, 3) \cdot (12, 11, 4, 15) = (120, 143, 48, 45)
                 \cong (1, 7, 14, 11).
             \]
-        \item Recombination is not obvious, see the next slide.
+        \item <6->Recombination is not obvious, see the next slide.
     \end{itemize}
 \end{frame}
 
 
 \begin{frame}
     \begin{itemize}
-        \item We now try to recombine the result by the information of coordinates
+        \item <1->We now try to recombine the result by the information of coordinates
             \[
             (1, 7, 14, 11)\in 
                 \mathbb{Z}_{17}[x]/(x-1) \times 
@@ -348,7 +350,7 @@
                 \mathbb{Z}_{17}[x]/(x-4) \times 
                 \mathbb{Z}_{17}[x]/(x+4).
             \]
-        \item For the first two coordinate, we can partially recombine them into the ring 
+        \item <2->For the first two coordinate, we can partially recombine them into the ring 
             \( \mathbb{Z}_{17}[x]/(x^{2}-1) \), since they came from the colored projection as shown:
             \begin{align*}
                 \mathbb{Z}_{17}[x]/(x^{4}-1) 
@@ -361,7 +363,7 @@
                 \mathbb{Z}_{17}[x]/(x-4) \times 
                 \mathbb{Z}_{17}[x]/(x+4).
             \end{align*}
-        \item Such partial recombination is easy, as we done before:
+        \item <3->Such partial recombination is easy, as we done before:
             \[
                 4 - 3x = \frac{1+7}{2} + \frac{1-7}{2}x .
             \]
@@ -372,7 +374,7 @@
 
 \begin{frame}
     \begin{itemize}
-        \item We now try to recombine the result, denoted \(f(x)\), by the information of coordinates
+        \item <1->We now try to recombine the result, denoted \(f(x)\), by the information of coordinates
             \[
             (1, 7, 14, 11)\in 
                 \mathbb{Z}_{17}[x]/(x-1) \times 
@@ -380,7 +382,7 @@
                 \mathbb{Z}_{17}[x]/(x-4) \times 
                 \mathbb{Z}_{17}[x]/(x+4).
             \]
-        \item For the last two coordinate, we can partially recombine them into the ring 
+        \item <2->For the last two coordinate, we can partially recombine them into the ring 
             \( \mathbb{Z}_{17}[x]/(x^{2}-1) \), since they came from the colored projection as shown:
             \begin{align*}
                 \mathbb{Z}_{17}[x]/(x^{4}-1) 
@@ -393,7 +395,7 @@
                 {\color{red}\mathbb{Z}_{17}[x]/(x-4)} \times 
                 {\color{red}\mathbb{Z}_{17}[x]/(x+4)}.
             \end{align*}
-        \item But such partial recombination is a little bit tricky,
+        \item <3->But such partial recombination is a little bit tricky,
             \begin{align*}
                 \mathbb{Z}_{17}[x] / (x^{2}+1) &\cong 
                 \mathbb{Z}_{17}[x] / (x - 4) \times
@@ -401,7 +403,7 @@
                 a + bx &\mapsto (a+4b, a-4b) = (A,B).\\
                 \frac{1}{2}(A+B) + \frac{1}{2}\frac{A-B}{4}x &\mapsto (A,B).
             \end{align*}
-        \item In this case, the recombination goes:
+        \item <4->In this case, the recombination goes:
             \[
                 \frac{1}{2}(14+11) + \frac{1}{2}\frac{14-11}{4}x = 4 + 11x.
             \]
@@ -413,7 +415,7 @@
 
 \begin{frame}
     \begin{itemize}
-        \item So far, we know that the answer of the multiplication, denoted \(f(x)\), 
+        \item <1->So far, we know that the answer of the multiplication, denoted \(f(x)\), 
             represented in the first layer of decomposition is:
             \begin{align*}
                 \mathbb{Z}_{17}[x] / (x^{4} - 1) &\cong
@@ -423,7 +425,7 @@
             \end{align*}
             We have to do one more layer of recombination to get the final answer.
 
-        \item Take a look at the first layer of decomposition:
+        \item <2->Take a look at the first layer of decomposition:
             \begin{align*}
                 \mathbb{Z}_{17}[x] / (x^{4} - 1) &\cong
                 \mathbb{Z}_{17}[x] / (x^2-1) \times
@@ -441,7 +443,7 @@
                 (A_{0} + A_{1}x, A_{2} + A_{3}x).
             \]
 
-        \item Apply to our case, the final answer is:
+        \item <3->Apply to our case, the final answer is:
             \[
                 \frac{1}{2}(4 + 4) + \frac{1}{2}(-3 + 11)x + 
                 \frac{1}{2}(4 - 4)x^{2} + \frac{1}{2}(-3 - 11)x^{3} = 4 + 4x + 0x^{2} - 7x^{3}.
@@ -452,9 +454,9 @@
 
 \begin{frame}
     \begin{itemize}
-        \item Let's now give a summary of the fast multiplication algorithm just invented:
+        \item <1->Let's now give a summary of the fast multiplication algorithm just invented:
             \begin{enumerate}
-                \item Project the operands \( a(x), b(x) \) into the coordinate-rings
+                \item <2->Project the operands \( a(x), b(x) \) into the coordinate-rings
                     \begin{align*}
                         \mathbb{Z}_{17}[x] / (x^{4} - 1) &\cong
                         \mathbb{Z}_{17}[x] / (x^2-1) \times
@@ -465,17 +467,17 @@
                         \mathbb{Z}_{17}[x] / (x-4) \times
                         \mathbb{Z}_{17}[x] / (x+4)
                     \end{align*}
-                \item Perform the Coordinate-wise multiplication
-                \item Recombine the result to get the final answer
+                \item <3->Perform the Coordinate-wise multiplication
+                \item <4->Recombine the result to get the final answer
                     As we have seen, the recombination is not trivial, however, 
                     there is a concept of butterfly algorithm, 
                     we will introduce it later.
             \end{enumerate}
-        \item We left as an exercise that: 
+        \item <5->We left as an exercise that: 
             The schoolbook of the same calculation requies 16 multiplications and some additions,
             make an estimation of the number of operations in the fast multiplication algorithm we just invented.
 
-        \item Another issue is, here we picked a particular modular number \(17\), 
+        \item <6->Another issue is, here we picked a particular modular number \(17\), 
             how to generalize the algorithm to arbitrary \(p\)?
             What conditions should the number \(p\) satisfy in order to have such decomposition 
             (i.e., existence of the element \(\omega\) such that \(\omega^{2} = -1\))?

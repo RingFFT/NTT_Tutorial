@@ -2,12 +2,12 @@
 
 \begin{frame}{Motivation and Goals}
   \begin{itemize}
-    \item \textbf{Core Problem}: Fast polynomial multiplication in 
+    \item<1-> \textbf{Core Problem}: Fast polynomial multiplication in 
           \(\mathbb{Z}_{p}[x]/(x^n - 1)\), where \(n\) is a power of 2.\\
           The problems we deal with include more general quotient rings, 
           but in this slide, we firstly focus on such simple ring 
           for the purpose of illustration.
-    \item \textbf{Background}:
+    \item<2-> \textbf{Background}:
           \begin{itemize}
             \item In many applications in cryptography, we have to multiply the elements
                   in the ring of the kind \(\mathbb{Z}_{p}[x]/(x^n - 1)\), 
@@ -17,14 +17,6 @@
                   we can perform such multiplication for larger \(n\), 
                   and thus improve the security level of the cryptographic scheme.
           \end{itemize}
-    \item \textbf{Structure of This Slide}:
-          \begin{enumerate}
-            \item Rings and factorization basics
-            \item Searching for roots in \(\mathbb{Z}_p\)
-            \item \alert{Butterfly Operation} (key focus)
-            \item Implementation details
-            \item Extensions and applications
-          \end{enumerate}
   \end{itemize}
 \end{frame}
 
