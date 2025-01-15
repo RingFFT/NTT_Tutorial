@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Homebrew) (preloaded format=pdflatex 2024.10.29)  8 JAN 2025 14:06
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Homebrew) (preloaded format=pdflatex 2024.10.29)  15 JAN 2025 11:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -819,38 +819,11 @@ erinnerthemedefault.sty
 erouterthemedefault.sty))) (./loadslides.tex
 
 Package xcolor Warning: Package option `hyperref' is obsolete and ignored on in
-put line 14.
+put line 10.
 
+(/Users/huangchengwei/texmf/tex/latex/tikz-cd/tikz-cd.sty
+Package: tikz-cd 2021/05/04 v1.0 Commutative diagrams with TikZ
 
-(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/psnfss/helv
-et.sty
-Package: helvet 2020/03/25 PSNFSS-v9.3 (WaS) 
-)
-(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/base/inpute
-nc.sty
-Package: inputenc 2021/02/14 v1.3d Input encoding file
-\inpenc@prehook=\toks46
-\inpenc@posthook=\toks47
-)
-(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/base/fonten
-c.sty
-Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
-LaTeX Font Info:    Trying to load font information for T1+phv on input line 11
-2.
-
-(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/psnfss/t1ph
-v.fd
-File: t1phv.fd 2020/03/25 scalable font definitions for T1/phv.
-)
-LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 10.40245pt on input line 112.
-) (./styles/elegantmacros.sty) (./styles/beamerthemeelegant.sty
-(./styles/beamercolorthemeelegant.sty
-
-Package xcolor Warning: Package option `hyperref' is obsolete and ignored on in
-put line 6.
-
-) (./styles/beamerfontthemeelegant.sty) (./styles/beamerinnerthemeelegant.sty
 (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/pgf/fronten
 dlayer/tikz.sty
 (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/pgf/basicla
@@ -883,8 +856,8 @@ ties/pgffor.code.tex
 Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
 \pgffor@iter=\dimen296
 \pgffor@skip=\dimen297
-\pgffor@stack=\toks48
-\pgffor@toks=\toks49
+\pgffor@stack=\toks46
+\pgffor@toks=\toks47
 ))
 (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/pgf/front
 endlayer/tikz/tikz.code.tex
@@ -926,29 +899,75 @@ File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
 endlayer/tikz/libraries/tikzlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )))
+(/Users/huangchengwei/texmf/tex/generic/tikz-cd/tikzlibrarycd.code.tex
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/pgf/front
+endlayer/tikz/libraries/tikzlibrarymatrix.code.tex
+File: tikzlibrarymatrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/pgf/front
+endlayer/tikz/libraries/tikzlibraryquotes.code.tex
+File: tikzlibraryquotes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/pgf/libra
+ries/pgflibraryarrows.meta.code.tex
+File: pgflibraryarrows.meta.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfarrowinset=\dimen307
+\pgfarrowlength=\dimen308
+\pgfarrowwidth=\dimen309
+\pgfarrowlinewidth=\dimen310
+)))
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/psnfss/helv
+et.sty
+Package: helvet 2020/03/25 PSNFSS-v9.3 (WaS) 
+)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/base/inpute
+nc.sty
+Package: inputenc 2021/02/14 v1.3d Input encoding file
+\inpenc@prehook=\toks48
+\inpenc@posthook=\toks49
+)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/base/fonten
+c.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+LaTeX Font Info:    Trying to load font information for T1+phv on input line 11
+2.
+
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/psnfss/t1ph
+v.fd
+File: t1phv.fd 2020/03/25 scalable font definitions for T1/phv.
+)
+LaTeX Font Info:    Font shape `T1/phv/m/n' will be
+(Font)              scaled to size 10.40245pt on input line 112.
+) (./styles/elegantmacros.sty) (./styles/beamerthemeelegant.sty
+(./styles/beamercolorthemeelegant.sty
+
+Package xcolor Warning: Package option `hyperref' is obsolete and ignored on in
+put line 6.
+
+) (./styles/beamerfontthemeelegant.sty) (./styles/beamerinnerthemeelegant.sty
 \c@sectionpage=\count345
 )
 (./styles/beamerouterthemeelegant.sty))
 (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/booktabs/bo
 oktabs.sty
 Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
-\heavyrulewidth=\dimen307
-\lightrulewidth=\dimen308
-\cmidrulewidth=\dimen309
-\belowrulesep=\dimen310
-\belowbottomsep=\dimen311
-\aboverulesep=\dimen312
-\abovetopsep=\dimen313
-\cmidrulesep=\dimen314
-\cmidrulekern=\dimen315
-\defaultaddspace=\dimen316
+\heavyrulewidth=\dimen311
+\lightrulewidth=\dimen312
+\cmidrulewidth=\dimen313
+\belowrulesep=\dimen314
+\belowbottomsep=\dimen315
+\aboverulesep=\dimen316
+\abovetopsep=\dimen317
+\cmidrulesep=\dimen318
+\cmidrulekern=\dimen319
+\defaultaddspace=\dimen320
 \@cmidla=\count346
 \@cmidlb=\count347
-\@aboverulesep=\dimen317
-\@belowrulesep=\dimen318
+\@aboverulesep=\dimen321
+\@belowrulesep=\dimen322
 \@thisruleclass=\count348
 \@lastruleclass=\count349
-\@thisrulewidth=\dimen319
+\@thisrulewidth=\dimen323
 )
 (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/colortbl/co
 lortbl.sty
@@ -957,9 +976,9 @@ Package: colortbl 2024/02/20 v1.0g Color table columns (DPC)
 (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/tools/array
 .sty
 Package: array 2023/10/16 v2.5g Tabular extension package (FMi)
-\col@sep=\dimen320
+\col@sep=\dimen324
 \ar@mcellbox=\box81
-\extrarowheight=\dimen321
+\extrarowheight=\dimen325
 \NC@list=\toks50
 \extratabsurround=\skip65
 \backup@length=\skip66
@@ -1070,7 +1089,7 @@ File: tikzlibraryarrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
 (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/pgf/libra
 ries/pgflibraryarrows.code.tex
 File: pgflibraryarrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\arrowsize=\dimen322
+\arrowsize=\dimen326
 ))
 (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/pgf/front
 endlayer/tikz/libraries/tikzlibrarypositioning.code.tex
@@ -1087,14 +1106,14 @@ Package: caption 2023/08/05 v3.6o Customizing captions (AR)
 (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/caption/cap
 tion3.sty
 Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
-\caption@tempdima=\dimen323
-\captionmargin=\dimen324
-\caption@leftmargin=\dimen325
-\caption@rightmargin=\dimen326
-\caption@width=\dimen327
-\caption@indent=\dimen328
-\caption@parindent=\dimen329
-\caption@hangindent=\dimen330
+\caption@tempdima=\dimen327
+\captionmargin=\dimen328
+\caption@leftmargin=\dimen329
+\caption@rightmargin=\dimen330
+\caption@width=\dimen331
+\caption@indent=\dimen332
+\caption@parindent=\dimen333
+\caption@hangindent=\dimen334
 Package caption Info: beamer document class detected.
 
 (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/caption/cap
@@ -1119,11 +1138,11 @@ Package caption Info: New subtype `subtable' on input line 238.
 (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/tools/tabul
 arx.sty
 Package: tabularx 2023/07/08 v2.11c `tabularx' package (DPC)
-\TX@col@width=\dimen331
-\TX@old@table=\dimen332
-\TX@old@col=\dimen333
-\TX@target=\dimen334
-\TX@delta=\dimen335
+\TX@col@width=\dimen335
+\TX@old@table=\dimen336
+\TX@old@col=\dimen337
+\TX@target=\dimen338
+\TX@delta=\dimen339
 \TX@cols=\count355
 \TX@ftn=\toks52
 )
@@ -1133,7 +1152,7 @@ Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
 \multirow@colwidth=\skip82
 \multirow@cntb=\count356
 \multirow@dima=\skip83
-\bigstrutjot=\dimen336
+\bigstrutjot=\dimen340
 )
 (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/biblatex/bi
 blatex.sty
@@ -1434,8 +1453,8 @@ Package: blx-case-expl3 2024/03/21 v3.20 expl3 case changing code for biblatex
 ))
 (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/wrapfig/wra
 pfig.sty
-\wrapoverhang=\dimen337
-\WF@size=\dimen338
+\wrapoverhang=\dimen341
+\WF@size=\dimen342
 \c@WF@wrappedlines=\count494
 \WF@box=\box104
 \WF@everypar=\toks53
@@ -1454,7 +1473,7 @@ pgfplotscore.code.tex
 \t@pgfplots@toka=\toks54
 \t@pgfplots@tokb=\toks55
 \t@pgfplots@tokc=\toks56
-\pgfplots@tmpa=\dimen339
+\pgfplots@tmpa=\dimen343
 \c@pgfplots@coordindex=\count495
 \c@pgfplots@scanlineindex=\count496
 
@@ -1532,14 +1551,14 @@ pgfplots.paths.code.tex)
 endlayer/tikz/libraries/tikzlibrarydecorations.code.tex
 (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/pgf/modul
 es/pgfmoduledecorations.code.tex
-\pgfdecoratedcompleteddistance=\dimen340
-\pgfdecoratedremainingdistance=\dimen341
-\pgfdecoratedinputsegmentcompleteddistance=\dimen342
-\pgfdecoratedinputsegmentremainingdistance=\dimen343
-\pgf@decorate@distancetomove=\dimen344
+\pgfdecoratedcompleteddistance=\dimen344
+\pgfdecoratedremainingdistance=\dimen345
+\pgfdecoratedinputsegmentcompleteddistance=\dimen346
+\pgfdecoratedinputsegmentremainingdistance=\dimen347
+\pgf@decorate@distancetomove=\dimen348
 \pgf@decorate@repeatstate=\count500
-\pgfdecorationsegmentamplitude=\dimen345
-\pgfdecorationsegmentlength=\dimen346
+\pgfdecorationsegmentamplitude=\dimen349
+\pgfdecorationsegmentlength=\dimen350
 )
 \tikz@lib@dec@box=\box105
 )
@@ -1554,12 +1573,12 @@ ries/decorations/pgflibrarydecorations.pathreplacing.code.tex))
 (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/pgfplots/
 libs/tikzlibrarypgfplots.contourlua.code.tex)
 \pgfplots@numplots=\count501
-\pgfplots@xmin@reg=\dimen347
-\pgfplots@xmax@reg=\dimen348
-\pgfplots@ymin@reg=\dimen349
-\pgfplots@ymax@reg=\dimen350
-\pgfplots@zmin@reg=\dimen351
-\pgfplots@zmax@reg=\dimen352
+\pgfplots@xmin@reg=\dimen351
+\pgfplots@xmax@reg=\dimen352
+\pgfplots@ymin@reg=\dimen353
+\pgfplots@ymax@reg=\dimen354
+\pgfplots@zmin@reg=\dimen355
+\pgfplots@zmax@reg=\dimen356
 )
 (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/pgf/front
 endlayer/tikz/libraries/tikzlibraryplotmarks.code.tex
@@ -1601,24 +1620,24 @@ collectbox.sty
 Package: collectbox 2022/10/17 v0.4c Collect macro arguments as boxes
 \collectedbox=\box106
 )
-\tc@llx=\dimen353
-\tc@lly=\dimen354
-\tc@urx=\dimen355
-\tc@ury=\dimen356
+\tc@llx=\dimen357
+\tc@lly=\dimen358
+\tc@urx=\dimen359
+\tc@ury=\dimen360
 Package trimclip Info: Using driver 'tc-pdftex.def'.
 
 (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/adjustbox/t
 c-pdftex.def
 File: tc-pdftex.def 2019/01/04 v2.2 Clipping driver for pdftex
 ))
-\adjbox@Width=\dimen357
-\adjbox@Height=\dimen358
-\adjbox@Depth=\dimen359
-\adjbox@Totalheight=\dimen360
-\adjbox@pwidth=\dimen361
-\adjbox@pheight=\dimen362
-\adjbox@pdepth=\dimen363
-\adjbox@ptotalheight=\dimen364
+\adjbox@Width=\dimen361
+\adjbox@Height=\dimen362
+\adjbox@Depth=\dimen363
+\adjbox@Totalheight=\dimen364
+\adjbox@pwidth=\dimen365
+\adjbox@pheight=\dimen366
+\adjbox@pdepth=\dimen367
+\adjbox@ptotalheight=\dimen368
 
 (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/ifoddpage/i
 foddpage.sty
@@ -1630,8 +1649,8 @@ rwidth.sty
 Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
 \@vwid@box=\box107
 \sift@deathcycles=\count504
-\@vwid@loff=\dimen365
-\@vwid@roff=\dimen366
+\@vwid@loff=\dimen369
+\@vwid@roff=\dimen370
 ))
 (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/environ/env
 iron.sty
@@ -1656,8 +1675,8 @@ sty
 Package: calc 2023/07/08 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Acount=\count505
 \calc@Bcount=\count506
-\calc@Adimen=\dimen367
-\calc@Bdimen=\dimen368
+\calc@Adimen=\dimen371
+\calc@Bdimen=\dimen372
 \calc@Askip=\skip106
 \calc@Bskip=\skip107
 LaTeX Info: Redefining \setlength on input line 80.
@@ -1670,16 +1689,16 @@ hsetup.sty
 Package: mhsetup 2021/03/18 v1.4 programming setup (MH)
 )
 \g_MT_multlinerow_int=\count508
-\l_MT_multwidth_dim=\dimen369
+\l_MT_multwidth_dim=\dimen373
 \origjot=\skip109
-\l_MT_shortvdotswithinadjustabove_dim=\dimen370
-\l_MT_shortvdotswithinadjustbelow_dim=\dimen371
-\l_MT_above_intertext_sep=\dimen372
-\l_MT_below_intertext_sep=\dimen373
-\l_MT_above_shortintertext_sep=\dimen374
-\l_MT_below_shortintertext_sep=\dimen375
+\l_MT_shortvdotswithinadjustabove_dim=\dimen374
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen375
+\l_MT_above_intertext_sep=\dimen376
+\l_MT_below_intertext_sep=\dimen377
+\l_MT_above_shortintertext_sep=\dimen378
+\l_MT_below_shortintertext_sep=\dimen379
 \xmathstrut@box=\box109
-\xmathstrut@dim=\dimen376
+\xmathstrut@dim=\dimen380
 )
 \c@fact=\count509
 \c@examp=\count510
@@ -1751,13 +1770,13 @@ LaTeX Font Info:    ... okay on input line 32.
 /supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count517
-\scratchdimen=\dimen377
+\scratchdimen=\dimen381
 \scratchbox=\box110
 \nofMPsegments=\count518
 \nofMParguments=\count519
 \everyMPshowfont=\toks63
 \MPscratchCnt=\count520
-\MPscratchDim=\dimen378
+\MPscratchDim=\dimen382
 \MPnumerator=\count521
 \makeMPintoPDFobject=\count522
 \everyMPtoPDFconversion=\toks64
@@ -2257,14 +2276,84 @@ per/cm-super-t1.enc}] [85
 
 ] [104
 
-]
+])
+(./section4.tex
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 2.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 2.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `superscript' on input line 2.
+
 [105
+
+] [106
+
+]
+<tikzcd1.pdf, id=946, 491.01746pt x 63.77827pt>
+File: tikzcd1.pdf Graphic file (type pdf)
+<use tikzcd1.pdf>
+Package pdftex.def Info: tikzcd1.pdf  used on input line 55.
+(pdftex.def)             Requested size: 386.95897pt x 50.2636pt.
+<tikzcd2.pdf, id=947, 491.01746pt x 63.77827pt>
+File: tikzcd2.pdf Graphic file (type pdf)
+<use tikzcd2.pdf>
+Package pdftex.def Info: tikzcd2.pdf  used on input line 55.
+(pdftex.def)             Requested size: 386.95897pt x 50.2636pt.
+ [107
+
+ <./tikzcd1.pdf> <./tikzcd2.pdf>] [108
+
+]
+<tikzcd3.pdf, id=1008, 511.01817pt x 115.65308pt>
+File: tikzcd3.pdf Graphic file (type pdf)
+<use tikzcd3.pdf>
+Package pdftex.def Info: tikzcd3.pdf  used on input line 100.
+(pdftex.def)             Requested size: 386.95897pt x 87.57782pt.
+ [109
+
+ <./tikzcd3.pdf>]
+[110
+
+]
+<tikzcd4.pdf, id=1046, 521.0175pt x 97.65283pt>
+File: tikzcd4.pdf Graphic file (type pdf)
+<use tikzcd4.pdf>
+Package pdftex.def Info: tikzcd4.pdf  used on input line 150.
+(pdftex.def)             Requested size: 386.95897pt x 72.52867pt.
+ [111
+
+ <./tikzcd4.pdf>]
+<tikzcd5.pdf, id=1073, 320.6148pt x 229.72224pt>
+File: tikzcd5.pdf Graphic file (type pdf)
+<use tikzcd5.pdf>
+Package pdftex.def Info: tikzcd5.pdf  used on input line 157.
+(pdftex.def)             Requested size: 338.58632pt x 242.61407pt.
+
+Overfull \vbox (3.45758pt too high) detected at line 157
+ []
+
+[112
+
+ <./tikzcd5.pdf>] [113
+
+]
+File: tikzcd5.pdf Graphic file (type pdf)
+<use tikzcd5.pdf>
+Package pdftex.def Info: tikzcd5.pdf  used on input line 179.
+(pdftex.def)             Requested size: 290.22107pt x 207.95743pt.
+ [114
 
 ])
 
-LaTeX Warning: Empty bibliography on input line 63.
+LaTeX Warning: Empty bibliography on input line 64.
 
-[106
+[115
 
 ]
 \tf@nav=\write7
@@ -2282,42 +2371,46 @@ LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
 Package rerunfilecheck Info: File `slides.out' has not changed.
-(rerunfilecheck)             Checksum: D6490F13FD4C8AB4C6E9F6F6721EF67F;1503.
+(rerunfilecheck)             Checksum: 2DF08AE7944278A7342958AFA83CEF46;1922.
 Package logreq Info: Writing requests to 'slides.run.xml'.
 \openout1 = `slides.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 49279 strings out of 474116
- 1150911 string characters out of 5732612
- 2126729 words of memory out of 5000000
- 70520 multiletter control sequences out of 15000+600000
+ 50235 strings out of 474116
+ 1180120 string characters out of 5732612
+ 2154646 words of memory out of 5000000
+ 71435 multiletter control sequences out of 15000+600000
  635499 words of font info for 115 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 128i,15n,126p,2114b,5183s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 128i,22n,123p,2114b,5183s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/fonts/type1/public/
 amsfonts/cm/cmex10.pfb></opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dis
 t/fonts/type1/public/amsfonts/cm/cmmi10.pfb></opt/homebrew/Cellar/texlive/20240
 312_3/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></opt/homebrew
-/Cellar/texlive/20240312_3/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss
-10.pfb></opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmss12.pfb></opt/homebrew/Cellar/texlive/20240312_3/share/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></opt/homebrew/Cellar/texlive/2
-0240312_3/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></opt/home
-brew/Cellar/texlive/20240312_3/share/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmsy8.pfb></opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/fonts/type1
-/public/amsfonts/symbols/msam10.pfb></opt/homebrew/Cellar/texlive/20240312_3/sh
-are/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></opt/homebrew/Ce
-llar/texlive/20240312_3/share/texmf-dist/fonts/type1/public/cm-super/sfrm0800.p
-fb></opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/fonts/type1/public
-/cm-super/sfrm1095.pfb></opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dis
-t/fonts/type1/urw/helvetic/uhvb8a.pfb></opt/homebrew/Cellar/texlive/20240312_3/
-share/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></opt/homebrew/Cellar/texl
-ive/20240312_3/share/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on slides.pdf (106 pages, 338420 bytes).
+/Cellar/texlive/20240312_3/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr1
+0.pfb></opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmr7.pfb></opt/homebrew/Cellar/texlive/20240312_3/share/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmss10.pfb></opt/homebrew/Cellar/texlive/202
+40312_3/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></opt/homebr
+ew/Cellar/texlive/20240312_3/share/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+ss8.pfb></opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmsy10.pfb></opt/homebrew/Cellar/texlive/20240312_3/share/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></opt/homebrew/Cellar/texlive/
+20240312_3/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></opt/home
+brew/Cellar/texlive/20240312_3/share/texmf-dist/fonts/type1/public/amsfonts/sym
+bols/msam10.pfb></opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/fonts
+/type1/public/amsfonts/symbols/msbm10.pfb></opt/homebrew/Cellar/texlive/2024031
+2_3/share/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb></opt/homebrew/Ce
+llar/texlive/20240312_3/share/texmf-dist/fonts/type1/public/cm-super/sfrm1095.p
+fb></opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/fonts/type1/urw/he
+lvetic/uhvb8a.pfb></opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/fon
+ts/type1/urw/helvetic/uhvr8a.pfb></opt/homebrew/Cellar/texlive/20240312_3/share
+/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
+Output written on slides.pdf (115 pages, 404777 bytes).
 PDF statistics:
- 1051 PDF objects out of 1200 (max. 8388607)
- 872 compressed objects within 9 object streams
- 220 named destinations out of 1000 (max. 500000)
- 99 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1247 PDF objects out of 1440 (max. 8388607)
+ 1021 compressed objects within 11 object streams
+ 240 named destinations out of 1000 (max. 500000)
+ 140 words of extra memory for PDF output out of 10000 (max. 10000000)
 

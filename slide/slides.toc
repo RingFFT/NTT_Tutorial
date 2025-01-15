@@ -5,3 +5,5 @@
 \beamer@subsectionintoc {2}{3}{Decomposition of \( \mathbb {Z}[x]/(x^4-1) \)\unhbox \voidb@x \cleaders \hbox to0.8em{\hss .\hss }\hfill \kern \z@ 10}{44}{0}{2}
 \beamer@sectionintoc {3}{Decomposition of \( \mathbb {Z}_{p}[x]/(x^{n}-1) \)\unhbox \voidb@x \cleaders \hbox to0.8em{\hss .\hss }\hfill \kern \z@ 18}{80}{0}{3}
 \beamer@subsectionintoc {3}{1}{Decomposition of \( \mathbb {Z}_{p}[x]/(x^{8}-1) \)\unhbox \voidb@x \cleaders \hbox to0.8em{\hss .\hss }\hfill \kern \z@ 18}{80}{0}{3}
+\beamer@sectionintoc {4}{The Implementation of Algorithms\unhbox \voidb@x \cleaders \hbox to0.8em{\hss .\hss }\hfill \kern \z@ 24}{105}{0}{4}
+\beamer@subsectionintoc {4}{1}{Example of \( \mathbb {Z}_{17}[x]/(x^{8}-1) \)\unhbox \voidb@x \cleaders \hbox to0.8em{\hss .\hss }\hfill \kern \z@ 24}{105}{0}{4}

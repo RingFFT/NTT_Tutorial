@@ -1,0 +1,24 @@
+\documentclass{standalone} % 這裡使用 standalone 類別
+\usepackage{tikz-cd}
+
+\begin{document}
+\begin{tikzcd}
+    {\color{red}a_{0}} \arrow[dd,red]\arrow[rrrrdd,red] &
+    a_{1} \arrow[dd] \arrow[rrrrdd] &
+    a_{2} \arrow[rrrrdd] \arrow[dd] &
+    a_{3} \arrow[rrrrdd] \arrow[dd] &
+    {\color{red}a_{4}} \arrow[lllldd,red] \arrow[dd,red] &
+    a_{5} \arrow[dd] \arrow[lllldd] &
+    a_{6} \arrow[dd]\arrow[lllldd] &
+    a_{7} \arrow[dd]\arrow[lllldd] \\
+    & & & & & & & \\
+    {\color{red}a_{0}+a_{4}} &
+    a_{1}+a_{5} &
+    a_{2} + a_{6} &
+    a_{3} + a_{7} &
+    {\color{red}a_{0} - a_{4}} &
+    a_{1}-a_{5}  &
+    a_{2} - a_{6} &
+    a_{3} - a_{7}
+\end{tikzcd}
+\end{document}

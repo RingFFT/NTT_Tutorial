@@ -1,0 +1,12 @@
+% https://tikzcd.yichuanshen.de/#N4Igdg9gJgpgziAXAbVABwnAlgFyxMJZABgBpiBdUkANwEMAbAVxiRDoH1hiBfEH0uky58hFAEZyVWoxZtOwcXwFDseAkQBMU6vWatE7LpuWCQGNaKIBmHTP3yu106pEaUAFjt65hhR5dzYXUxZABWb1kDI2AwwIs3UIA2SIc-LiT44KsUAHZU3xjcrMt3ZFtxaR9ojwVnfjMEkKIIyt0otk0FOIbXZrzSNvtCgA4FYt6g0tD86yqO9OBMgFoxrgmVKcSiFLn2tJjMgGo14A3G7LKvPeHo-x4jrq4ezaac8NIb6sdgAOWn2IlbYoWxfBYxEzLWpOIH9ZDaMEHBQmI7Q4D1V6XUJkRGFBS8I4KJSTN5lSS4u5cXjLInKaQwKAAc3gRFAADMAE4QAC2SFsIBwECQI02nJ5SAiAqFiAAnKKubzEPkpUhxLwzGLFWrqILVUoNQqkCkVYhxPr2YbEMbdaaTAbxaayCbxHaLQ6vM7nPbFR6beIAt6kDKddLxF63Yrg86AxHhSHVXFA4htM7E7HECN46bMkmU36c+mnX7iknJM6RUmi6GK+my8WeBQeEA
+\documentclass{standalone} % 這裡使用 standalone 類別
+\usepackage{tikz-cd}
+
+\begin{document}
+\begin{tikzcd}
+    a_{0} \arrow[ddd] \arrow[rddd] & a_{1} \arrow[ddd] \arrow[lddd] & a_{2} \arrow[rddd] \arrow[ddd] & a_{3} \arrow[d]               & a_{4} \arrow[ddd] \arrow[rddd] & a_{5} \arrow[d]               & a_{6} \arrow[rddd] \arrow[ddd] & a_{7} \arrow[d]               \\
+                                   &                                &                                & 4a_{3} \arrow[dd] \arrow[ldd] &                                & 2a_{5} \arrow[ldd] \arrow[dd] &                                & 8a_{7} \arrow[dd] \arrow[ldd] \\
+                                   &                                &                                &                               &                                &                               &                                &                               \\
+    a_{0}+a_{1}                    & a_{0}-a_{1}                    & a_{2}+4a_{3}                   & a_{2}-4a_{3}                  & a_{4}+2a_{5}                   & a_{4}-2a_{5}                  & a_{6}+8a_{7}                   & a_{6}-8a_{7}                 
+\end{tikzcd}
+\end{document}
