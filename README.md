@@ -1,5 +1,5 @@
 # NTT_Python_Toolkit
-An implementation of NTT on Python. With tutorial and illustrations 
+We will provide some examples of NTT transform
 
 
 
@@ -9,7 +9,3 @@ An implementation of NTT on Python. With tutorial and illustrations
 - test: contains some test on my ntt algorithm
 - doc: contains the tutorial 
 - examples: contains some step by step examples
-
-## To-do
-
-- Modify the MODMUL as Barrett multiplication (or other faster algorithms)
