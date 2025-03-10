@@ -85,6 +85,7 @@
     </requires>
     <requires type="editable">
       <file>references.bib</file>
+      <file>../references/references.bib</file>
     </requires>
   </external>
 </requests>
